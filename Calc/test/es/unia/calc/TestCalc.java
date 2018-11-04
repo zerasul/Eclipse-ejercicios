@@ -14,8 +14,22 @@ public class TestCalc {
 		calc = new Calc(2,2);
 	}
 	@Test
-	public void test() {
+	public void testResta() {
 		Assert.assertEquals(2, calc.resta());
 	}
-
+	
+	@Test
+	public void testSuma() {
+		Assert.assertEquals(4, calc.suma());
+	}
+	
+	@Test
+	public void testProd() {
+		Assert.assertEquals(4, calc.producto());
+	}
+	
+	@Test
+	public void testDiv() {
+		Assert.assertEquals(1, calc.cociente());
+	}
 }
